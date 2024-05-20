@@ -1,0 +1,110 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url('/img/LigaArg2.jpg') center / cover fixed;
+}
+
+button {
+    margin: 10px 0 0 10px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+button:hover{
+    color: transparent;
+    padding: 15px 40px;
+    transition: 0.3s ease-in-out, 0.3s ease-in-out;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 200px 0 300px 0;
+}
+h3{
+    font-family: sans-serif;
+}
+h2{
+    margin: 5px;
+    font-size: 28px;
+}
+
+article{
+    margin: 30px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    background: linear-gradient(transparent, #0003);
+    transition: background 2s;
+}
+article:hover{
+    color: transparent;
+}
+
+.river:hover{
+    background: url('/img/river.jpg') center / cover;
+}
+.talleres:hover{
+    background: url('/img/talleres.jpg') center / cover;
+}
+.gimnasia:hover{
+    background: url('/img/gimnasia.jpg') center / cover;
+}
+.huracan:hover{
+    background: url('/img/huracan.jpg') center / cover;
+}
+.independiente:hover{
+    background: url('/img/independiente.jpg') center / cover;
+}
+.instituto:hover{
+    background: url('/img/instituto.jpg') center / cover;
+}
+.barracas:hover{
+    background: url('/img/barracas.jpg') center / cover;
+}
+.union:hover{
+    background: url('/img/union.jpg') center / cover;
+}
+.newells:hover{
+    background: url('/img/newells.jpg') center / cover;
+}
+.boca:hover{
+    background: url('/img/boca.jpg') center / cover;
+}
+.belgrano:hover{
+    background: url('/img/belgrano.jpg') center / cover;
+}
+.velez:hover{
+    background: url('/img/velez.jpg') center / cover;
+}
+.banfield:hover{
+    background: url('/img/banfield.jpg') center / cover;
+}
+.central:hover{
+    background: url('/img/central.jpg') center / cover;
+}
+.arsenal:hover{
+    background: url('/img/arsenal.jpg') center / cover;
+}
+.racing:hover{
+    background: url('/img/racing.jpg') center / cover;
+}
+.lorenzo:hover{
+    background: url('/img/lorenzo.jpg') center / cover;
+}
+.riestra:hover{
+    background: url('/img/riestra.jpg') center / cover;
+}
+
+section{
+    padding-bottom: 10px;
+}

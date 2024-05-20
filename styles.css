@@ -1,0 +1,74 @@
+body, html {
+    margin: 0;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+.liga{
+    height: 100vh;
+    background: 
+        linear-gradient(transparent, #000f),
+        url('/img/LigaArg.jpg') center / cover fixed;
+}
+
+h1{
+    position: relative;
+    top: 42%;
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+}
+@media (max-width: 320px) {
+    h1 {
+        font-size: 50px; /* Tamaño de fuente para pantallas medianas */
+    }
+    h2{
+        font-size: 40px; /* Tamaño de fuente para pantallas medianas */
+    }
+}
+
+h2{
+    margin: 0;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.box1, .box2 {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box1 {
+    background: 
+        linear-gradient(transparent, #000f),
+        url(./img/jugadoresRiver.jpg) top / cover fixed;
+}
+
+.box2 {
+    background: 
+        linear-gradient(transparent, #000f),
+        url(/img/jugadoresReserva.jpg) center / cover fixed;
+}
+
+button {
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover{
+    color: transparent;
+    padding: 15px 40px;
+    transition: 0.3s ease-in-out, 0.3s ease-in-out;
+}
