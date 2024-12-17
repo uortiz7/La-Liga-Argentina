@@ -16,12 +16,12 @@ button {
     padding: 15px 32px;
     font-size: 16px;
     cursor: pointer;
+    transition: transform 0.25s ease-out;
     border-radius: 8px;
 }
 button:hover{
     color: transparent;
-    padding: 15px 40px;
-    transition: 0.3s ease-in-out, 0.3s ease-in-out;
+    transform: translateX(3px);
 }
 
 h1{
@@ -44,7 +44,7 @@ article{
     border-radius: 5px;
     color: #fff;
     background: linear-gradient(transparent, #0003);
-    transition: background 2s;
+    transition: 5s;
 }
 article:hover{
     color: transparent;
@@ -103,8 +103,4 @@ article:hover{
 }
 .riestra:hover{
     background: url('/img/riestra.jpg') center / cover;
-}
-
-section{
-    padding-bottom: 10px;
 }

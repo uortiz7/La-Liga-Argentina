@@ -2,22 +2,17 @@ body, html {
     margin: 0;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    box-sizing: border-box;
 }
 
-.liga{
-    height: 100vh;
-    background: 
-        linear-gradient(transparent, #000f),
-        url('/img/LigaArg.jpg') center / cover fixed;
-}
 
-h1{
-    position: relative;
-    top: 42%;
+h1, h2{
     margin: 0;
+}
+h1{
     font-size: 60px;
-    text-align: center;
+}
+h2{
+    font-size: 50px;
 }
 @media (max-width: 320px) {
     h1 {
@@ -28,29 +23,24 @@ h1{
     }
 }
 
-h2{
-    margin: 0;
-    font-size: 50px;
-    justify-content: center;
-    text-align: center;
-}
 
-.box1, .box2 {
-    height: 100vh;
-    text-align: center;
+.container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
-
-.box1 {
+.inicio {
+    background: 
+        linear-gradient(transparent, #000f),
+        url('/img/LigaArg.jpg') center / cover fixed;
+}
+.primera {
     background: 
         linear-gradient(transparent, #000f),
         url(./img/jugadoresRiver.jpg) top / cover fixed;
 }
-
-.box2 {
+.reserva {
     background: 
         linear-gradient(transparent, #000f),
         url(/img/jugadoresReserva.jpg) center / cover fixed;
@@ -58,17 +48,16 @@ h2{
 
 button {
     margin-top: 20px;
-    background-color: transparent;
+    background: transparent;
     border: 2px solid #fff;
     color: #fff;
     padding: 15px 32px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 8px;
+    transition: all 0.25s ease-out;
 }
-
 button:hover{
     color: transparent;
-    padding: 15px 40px;
-    transition: 0.3s ease-in-out, 0.3s ease-in-out;
+    transform: translateY(-3px);
 }
